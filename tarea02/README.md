@@ -78,3 +78,14 @@ operaciones de creación y listado.
 4. Abrir http://localhost:5173
 
 
+## Capturas de pantalla
+
+![Captura 1](docs/img/1.png)
+
+![Captura 2](docs/img/2.png)
+
+![Captura 3](docs/img/3.png)
+
+![Captura 4](docs/img/4.png)
+
+![Captura 5](docs/img/5.png)
