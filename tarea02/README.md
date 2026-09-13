@@ -80,12 +80,12 @@ operaciones de creación y listado.
 
 ## Capturas de pantalla
 
-![Captura 1](docs/img/1.png)
+![Captura 1](docs/1.png)
 
-![Captura 2](docs/img/2.png)
+![Captura 2](docs/2.png)
 
-![Captura 3](docs/img/3.png)
+![Captura 3](docs/3.png)
 
-![Captura 4](docs/img/4.png)
+![Captura 4](docs/4.png)
 
-![Captura 5](docs/img/5.png)
+![Captura 5](docs/5.png)
