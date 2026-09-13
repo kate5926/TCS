@@ -77,16 +77,4 @@ operaciones de creación y listado.
    ```
 4. Abrir http://localhost:5173
 
-## Nota sobre cambios de esquema
 
-Si vuelves a modificar los campos de `Placa` o `Conductor`, `sequelize.sync()`
-no altera tablas existentes — hay que recrear la base de datos:
-```
-dropdb katwil && createdb katwil
-```
-
-## Pendiente / fuera de alcance
-
-- Módulos de Documentos y Novedades: se descartaron por ahora para mantener
-  la app "sencilla" según lo pedido; el dominio queda abierto a agregarlos después.
-- Autenticación de usuarios.
