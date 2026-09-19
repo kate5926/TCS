@@ -96,3 +96,22 @@ o se comparte el link.
 formularios, botones). Los mensajes de error que vienen del backend (ej.
 "DNI inválido") siguen en español, porque el backend no tiene i18n
 implementado — solo el frontend, que es donde vive la interfaz visible.
+
+## Capturas de pantalla
+
+![Captura 1](docs/Captura de pantalla 2026-09-19 145808.png)
+
+![Captura 2](docs/Captura de pantalla 2026-09-19 145818.png)
+
+![Captura 3](docs/Captura de pantalla 2026-09-19 145908.png)
+
+![Captura 3](docs/Captura de pantalla 2026-09-19 150542.png)
+
+![Captura 3](docs/Captura de pantalla 2026-09-19 150554.png)
+![Captura 3](docs/Captura de pantalla 2026-09-19 150606.png)
+
+
+
+
+
+
