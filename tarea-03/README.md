@@ -1,4 +1,4 @@
-# Katwil — Registro de Placas y Conductores (Tarea 1 y 2)
+# sitema de Registro de Placas y Conductores (Tarea 1 y 2)
 
 Aplicación de arquitectura en capas (Frontend / Backend-Logic / RDBMS) con
 sidebar de navegación y 2 módulos, cada uno con su formulario en modal
