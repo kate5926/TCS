@@ -99,7 +99,7 @@ implementado — solo el frontend, que es donde vive la interfaz visible.
 
 ## Capturas de pantalla
 
-![Captura 1](docs/Captura de pantalla 2026-09-19 145808.png)
+![Captura 1](tarea-03/docs/Captura de pantalla 2026-09-19 145808.png)
 
 ![Captura 2](docs/Captura de pantalla 2026-09-19 145818.png)
 
