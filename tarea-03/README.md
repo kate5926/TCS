@@ -105,10 +105,11 @@ implementado — solo el frontend, que es donde vive la interfaz visible.
 
 ![Captura 3](docs/Captura de pantalla 2026-09-19 145908.png)
 
-![Captura 3](docs/Captura de pantalla 2026-09-19 150542.png)
+![Captura 4](docs/Captura de pantalla 2026-09-19 150542.png)
 
-![Captura 3](docs/Captura de pantalla 2026-09-19 150554.png)
-![Captura 3](docs/Captura de pantalla 2026-09-19 150606.png)
+![Captura 5](docs/Captura de pantalla 2026-09-19 150554.png)
+
+![Captura 6](docs/Captura de pantalla 2026-09-19 150606.png)
 
 
 
