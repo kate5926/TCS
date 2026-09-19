@@ -1,0 +1,48 @@
+{
+  "nav": {
+    "inicio": "Home",
+    "placas": "Plate Registration",
+    "conductores": "Driver Registration"
+  },
+  "home": {
+    "placasTile": "Plate Registration",
+    "conductoresTile": "Driver Registration"
+  },
+  "placas": {
+    "addButton": "+ Add plate",
+    "colPlaca": "Plate",
+    "colCategoria": "Category",
+    "modalNew": "New plate",
+    "modalEdit": "Edit plate",
+    "placeholderPlaca": "Plate (e.g. ABC-123)",
+    "categoriaLabel": "Category",
+    "categoriaTracto": "Tractor",
+    "categoriaCarreta": "Trailer",
+    "saveNew": "Add plate",
+    "saveEdit": "Save changes",
+    "editButton": "Edit",
+    "deleteButton": "Delete",
+    "confirmDelete": "Delete this plate?",
+    "errorGeneric": "Error saving the plate"
+  },
+  "conductores": {
+    "addButton": "+ Add driver",
+    "colNombre": "Name",
+    "colDni": "ID Number",
+    "colLicencia": "License No.",
+    "modalNew": "New driver",
+    "modalEdit": "Edit driver",
+    "placeholderNombre": "Full name",
+    "placeholderDni": "ID Number (8 digits)",
+    "placeholderLicencia": "License number",
+    "saveNew": "Add driver",
+    "saveEdit": "Save changes",
+    "editButton": "Edit",
+    "deleteButton": "Delete",
+    "confirmDelete": "Delete this driver?",
+    "errorGeneric": "Error saving the driver"
+  },
+  "breadcrumb": {
+    "home": "Home"
+  }
+}

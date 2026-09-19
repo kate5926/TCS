@@ -1,0 +1,48 @@
+{
+  "nav": {
+    "inicio": "Inicio",
+    "placas": "Registro de Placas",
+    "conductores": "Registro de Conductores"
+  },
+  "home": {
+    "placasTile": "Registro de Placas",
+    "conductoresTile": "Registro de Conductores"
+  },
+  "placas": {
+    "addButton": "+ Agregar placa",
+    "colPlaca": "Placa",
+    "colCategoria": "Categoría",
+    "modalNew": "Nueva placa",
+    "modalEdit": "Editar placa",
+    "placeholderPlaca": "Placa (ej. ABC-123)",
+    "categoriaLabel": "Categoría",
+    "categoriaTracto": "Tracto",
+    "categoriaCarreta": "Carreta",
+    "saveNew": "Agregar placa",
+    "saveEdit": "Guardar cambios",
+    "editButton": "Editar",
+    "deleteButton": "Eliminar",
+    "confirmDelete": "¿Eliminar esta placa?",
+    "errorGeneric": "Error al guardar la placa"
+  },
+  "conductores": {
+    "addButton": "+ Agregar conductor",
+    "colNombre": "Nombre",
+    "colDni": "DNI",
+    "colLicencia": "N° Licencia",
+    "modalNew": "Nuevo conductor",
+    "modalEdit": "Editar conductor",
+    "placeholderNombre": "Nombre completo",
+    "placeholderDni": "DNI (8 dígitos)",
+    "placeholderLicencia": "Número de licencia",
+    "saveNew": "Agregar conductor",
+    "saveEdit": "Guardar cambios",
+    "editButton": "Editar",
+    "deleteButton": "Eliminar",
+    "confirmDelete": "¿Eliminar este conductor?",
+    "errorGeneric": "Error al guardar el conductor"
+  },
+  "breadcrumb": {
+    "home": "Inicio"
+  }
+}

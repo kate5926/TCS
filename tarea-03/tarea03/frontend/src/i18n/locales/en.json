@@ -1,0 +1,17 @@
+{
+  "nav": {
+    "inicio": "Home",
+    "placas": "Plates",
+    "conductores": "Drivers",
+    "cuestionario": "Questionnaire"
+  },
+  "questionnaire": {
+    "title": "Questionnaire",
+    "subtitle": "Answer these 3 questions",
+    "question1": "What is your name?",
+    "question2": "What city do you live in?",
+    "question3": "What is your favorite fleet plate?",
+    "submit": "Submit",
+    "thanks": "Thanks for answering, {name}!"
+  }
+}

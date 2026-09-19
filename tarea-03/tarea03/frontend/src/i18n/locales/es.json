@@ -1,0 +1,17 @@
+{
+  "nav": {
+    "inicio": "Inicio",
+    "placas": "Placas",
+    "conductores": "Conductores",
+    "cuestionario": "Cuestionario"
+  },
+  "questionnaire": {
+    "title": "Cuestionario",
+    "subtitle": "Responde estas 3 preguntas",
+    "question1": "¿Cuál es tu nombre?",
+    "question2": "¿En qué ciudad vives?",
+    "question3": "¿Cuál es tu placa favorita de la flota?",
+    "submit": "Enviar",
+    "thanks": "¡Gracias por responder, {name}!"
+  }
+}
