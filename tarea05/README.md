@@ -21,8 +21,6 @@ Se hicieron dos cosas:
 
 ## 1. Diagrama de componentes
 
-La aplicación está formada por **componentes distribuidos**. Cada uno se ejecuta en un lugar distinto y se comunica con los demás por la red:
-
 ```mermaid
 flowchart LR
     usuario([" Usuario"])
