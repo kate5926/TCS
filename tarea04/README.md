@@ -1,6 +1,6 @@
-# Tarea 04 — Internacionalización (i18n) y Validación con Expresiones Regulares
+# Tarea 04 — Aplicación web con internacionalización y regex
 
-Esta práctica continúa el proyecto  (Registro de Placas y Conductores) de la tarea-03.
+Esta práctica continúa el proyecto (Registro de Placas y Conductores) de la tarea-03.
 Se le agregaron dos cosas:
 
 1. Un **menú desplegable** para elegir el idioma de la aplicación (Español, English, Português).
@@ -18,10 +18,11 @@ Se le agregaron dos cosas:
 
 ---
 
-##  Desarrolló de la práctica
+## Desarrollo
 
-### Paso 1 —  proyecto anterior
+### Paso 1 — Copia del proyecto anterior
 Se copió la tarea-03 en la carpeta `tarea04/` para no modificar la entrega anterior.
+También se quitaron los archivos que no se usaban (una vista de cuestionario y unas traducciones repetidas).
 
 ### Paso 2 — Archivos de traducción
 Cada idioma tiene un archivo JSON con los mismos textos, pero traducidos:
@@ -42,6 +43,7 @@ Ejemplo (el mismo texto en los tres archivos):
 "validacion": { "dni": "O documento deve ter exatamente 8 dígitos" }    // pt
 ```
 
+En las vistas ya no se escribe el texto directamente, sino la **clave**: `{{ t('validacion.dni') }}`.
 
 ### Paso 3 — Menú desplegable de idioma
 En la barra superior (`frontend/src/App.vue`) los botones ES/EN se reemplazaron por un `<select>`:
@@ -78,11 +80,6 @@ Funcionamiento en el formulario:
 - El botón **Guardar se desactiva** mientras haya errores.
 - El mensaje de error sale **en el idioma seleccionado** (aquí se juntan la i18n y las regex).
 
-### Paso 5 — Validación también en el backend
-Las mismas regex se repiten en `backend/services/validacionesService.js`.
-Así, aunque alguien envíe datos sin usar el formulario, el servidor también los rechaza.
-
-
 ---
 
 ## Cómo ejecutarlo
@@ -110,26 +107,26 @@ Así, aunque alguien envíe datos sin usar el formulario, el servidor también l
 
 ## Capturas de pantalla
 
-
+> Guardar las imágenes en la carpeta `docs/img/` con los nombres indicados.
 
 ### 1. Menú desplegable de idiomas
-![Menú de idiomas](docs/img/1-menu-idiomas.png)
+![Menú de idiomas](docs/img/1-menu-idiomas.png.png)
+
 
 
 ### 3. Aplicación en Inglés
-![English](docs/img/3-ingles.png)
+![English](docs/img/3-ingles.png.png)
 
 ### 4. Aplicación en Portugués
-![Português](docs/img/4-portugues.png)
+![Português](docs/img/4-portugues.png.png)
 
 ### 5. Formulario con errores de validación (regex)
-![Errores de validación](docs/img/5-errores-validacion.png)
+![Errores de validación](docs/img/5-errores-validacion.png.png)
 
 
-### 6. Formulario con datos válidos
-![Formulario válido](docs/img/7-formulario-valido.png)
 
+### 7. Formulario con datos válidos
+![Formulario válido](docs/img/7-formulario-valido.png.png)
 
 
 ---
-
