@@ -126,7 +126,7 @@ Funcionamiento en el formulario:
 
 
 ### 7. Formulario con datos válidos
-![Formulario válido](docs/img/7-formulario-valido..pngpng)
+![Formulario válido](docs/img/7-formulario-valido.png.png)
 
 
 ---
