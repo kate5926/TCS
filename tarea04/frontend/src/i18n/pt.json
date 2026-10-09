@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "inicio": "Início",
+    "placas": "Registro de Placas",
+    "conductores": "Registro de Motoristas"
+  },
+  "home": {
+    "placasTile": "Registro de Placas",
+    "conductoresTile": "Registro de Motoristas"
+  },
+  "placas": {
+    "addButton": "+ Adicionar placa",
+    "colPlaca": "Placa",
+    "colCategoria": "Categoria",
+    "modalNew": "Nova placa",
+    "modalEdit": "Editar placa",
+    "placeholderPlaca": "Placa (ex. ABC-123)",
+    "categoriaLabel": "Categoria",
+    "categoriaTracto": "Cavalo mecânico",
+    "categoriaCarreta": "Carreta",
+    "saveNew": "Adicionar placa",
+    "saveEdit": "Salvar alterações",
+    "editButton": "Editar",
+    "deleteButton": "Excluir",
+    "confirmDelete": "Excluir esta placa?",
+    "errorGeneric": "Erro ao salvar a placa"
+  },
+  "conductores": {
+    "addButton": "+ Adicionar motorista",
+    "colNombre": "Nome",
+    "colDni": "Documento",
+    "colLicencia": "Nº CNH",
+    "modalNew": "Novo motorista",
+    "modalEdit": "Editar motorista",
+    "placeholderNombre": "Nome completo",
+    "placeholderDni": "Documento (8 dígitos)",
+    "placeholderLicencia": "Número da CNH",
+    "saveNew": "Adicionar motorista",
+    "saveEdit": "Salvar alterações",
+    "editButton": "Editar",
+    "deleteButton": "Excluir",
+    "confirmDelete": "Excluir este motorista?",
+    "errorGeneric": "Erro ao salvar o motorista"
+  },
+  "breadcrumb": {
+    "home": "Início"
+  },
+  "idioma": "Idioma",
+  "validacion": {
+    "requerido": "Este campo é obrigatório",
+    "nombre": "Apenas letras e um espaço entre palavras (ex. João Silva)",
+    "dni": "O documento deve ter exatamente 8 dígitos",
+    "licencia": "A CNH deve ter 1 letra + 8 dígitos (ex. Q12345678)",
+    "placa": "A placa deve ter 3 letras + 3 dígitos (ex. ABC-123)",
+    "categoria": "Selecione uma categoria"
+  }
+}
