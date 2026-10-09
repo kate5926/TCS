@@ -1,9 +1,6 @@
 # TCS — Tareas del curso
 
 Repositorio con las tareas del curso. Cada tarea está en su propia carpeta y tiene su README con la explicación del desarrollo y las capturas de pantalla.
-
-**Autora:** Katherine Saico
-
 ---
 
 ## Índice
