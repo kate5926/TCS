@@ -1,6 +1,6 @@
 # Tarea 04 — Internacionalización (i18n) y Validación con Expresiones Regulares
 
-Esta práctica continúa el proyecto **Katwil (Registro de Placas y Conductores)** de la tarea-03.
+Esta práctica continúa el proyecto  (Registro de Placas y Conductores) de la tarea-03.
 Se le agregaron dos cosas:
 
 1. Un **menú desplegable** para elegir el idioma de la aplicación (Español, English, Português).
@@ -18,11 +18,10 @@ Se le agregaron dos cosas:
 
 ---
 
-## ¿Cómo se desarrolló la práctica?
+##  Desarrolló de la práctica
 
-### Paso 1 — Copia del proyecto anterior
+### Paso 1 —  proyecto anterior
 Se copió la tarea-03 en la carpeta `tarea04/` para no modificar la entrega anterior.
-También se quitaron los archivos que no se usaban (una vista de cuestionario y unas traducciones repetidas).
 
 ### Paso 2 — Archivos de traducción
 Cada idioma tiene un archivo JSON con los mismos textos, pero traducidos:
@@ -43,7 +42,6 @@ Ejemplo (el mismo texto en los tres archivos):
 "validacion": { "dni": "O documento deve ter exatamente 8 dígitos" }    // pt
 ```
 
-En las vistas ya no se escribe el texto directamente, sino la **clave**: `{{ t('validacion.dni') }}`.
 
 ### Paso 3 — Menú desplegable de idioma
 En la barra superior (`frontend/src/App.vue`) los botones ES/EN se reemplazaron por un `<select>`:
@@ -64,18 +62,14 @@ Al elegir un idioma:
 ### Paso 4 — Validación con Expresiones Regulares
 Las regex están en un solo archivo, `frontend/src/utils/validaciones.js`, y se usan en los formularios de **Conductores** y **Placas**:
 
-| Campo     | Expresión regular                                   | Qué significa                               | ✅ Válido     | ❌ Inválido   |
+| Campo     | Expresión regular                                   | Qué significa                               |  Válido     |  Inválido   |
 |-----------|-----------------------------------------------------|---------------------------------------------|--------------|--------------|
 | Nombre    | `^[A-Za-zÁÉÍÓÚÜáéíóúüÑñ]+( [A-Za-zÁÉÍÓÚÜáéíóúüÑñ]+)*$` | Solo letras, con un espacio entre palabras | `Juan Pérez` | `Juan123`    |
 | DNI       | `^\d{8}$`                                           | Exactamente 8 dígitos                       | `12345678`   | `1234`       |
 | Licencia  | `^[A-Z]\d{8}$`                                      | 1 letra seguida de 8 dígitos                | `Q12345678`  | `12345678`   |
 | Placa     | `^[A-Z]{3}-?\d{3}$`                                 | 3 letras, guion opcional y 3 dígitos        | `ABC-123`    | `AB-12`      |
 
-Cómo leer los símbolos:
-- `^` y `$` → inicio y fin del texto (todo el valor debe cumplir el patrón).
-- `\d` → un dígito (0-9). `{8}` → repetir exactamente 8 veces.
-- `[A-Z]` → una letra. `-?` → el guion puede estar o no.
-- `+` → una o más veces. `*` → cero o más veces.
+
 
 Funcionamiento en el formulario:
 - La validación se hace **mientras el usuario escribe**.
@@ -86,23 +80,8 @@ Funcionamiento en el formulario:
 
 ### Paso 5 — Validación también en el backend
 Las mismas regex se repiten en `backend/services/validacionesService.js`.
-Así, aunque alguien envíe datos sin usar el formulario (por ejemplo, desde Postman), el servidor también los rechaza.
+Así, aunque alguien envíe datos sin usar el formulario, el servidor también los rechaza.
 
----
-
-## Archivos modificados / creados
-
-| Archivo | Cambio |
-|---------|--------|
-| `frontend/src/App.vue` | Menú desplegable de idioma y estilos de los campos válidos e inválidos |
-| `frontend/src/i18n/index.js` | Tres idiomas, detección por URL y `localStorage` |
-| `frontend/src/i18n/pt.json` | **Nuevo** — traducción al portugués |
-| `frontend/src/i18n/es.json`, `en.json` | Mensajes de validación |
-| `frontend/src/utils/validaciones.js` | **Nuevo** — expresiones regulares |
-| `frontend/src/views/ConductoresView.vue` | Validación en vivo de nombre, DNI y licencia |
-| `frontend/src/views/PlacasView.vue` | Validación en vivo de placa y categoría |
-| `backend/services/validacionesService.js` | Regex de nombre y licencia |
-| `backend/services/conductorService.js` | Usa las nuevas validaciones |
 
 ---
 
@@ -131,13 +110,11 @@ Así, aunque alguien envíe datos sin usar el formulario (por ejemplo, desde Pos
 
 ## Capturas de pantalla
 
-> Guardar las imágenes en la carpeta `docs/img/` con los nombres indicados.
+
 
 ### 1. Menú desplegable de idiomas
 ![Menú de idiomas](docs/img/1-menu-idiomas.png)
 
-### 2. Aplicación en Español
-![Español](docs/img/2-espanol.png)
 
 ### 3. Aplicación en Inglés
 ![English](docs/img/3-ingles.png)
@@ -148,19 +125,11 @@ Así, aunque alguien envíe datos sin usar el formulario (por ejemplo, desde Pos
 ### 5. Formulario con errores de validación (regex)
 ![Errores de validación](docs/img/5-errores-validacion.png)
 
-### 6. Mensajes de error en otro idioma
-![Errores en inglés](docs/img/6-errores-ingles.png)
 
-### 7. Formulario con datos válidos
+### 6. Formulario con datos válidos
 ![Formulario válido](docs/img/7-formulario-valido.png)
 
-### 8. Registro guardado en la tabla
-![Registro guardado](docs/img/8-registro-guardado.png)
+
 
 ---
 
-## Conclusión
-
-- Con **vue-i18n** se separan los textos del código, así que agregar un idioma nuevo solo requiere crear un archivo JSON.
-- Las **expresiones regulares** permiten validar el formato de los datos con una sola línea, y se reutilizan en el frontend y en el backend.
-- Validar en el frontend mejora la experiencia del usuario y validar en el backend protege los datos.

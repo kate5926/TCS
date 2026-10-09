@@ -1,0 +1,77 @@
+{
+  "nav": {
+    "inicio": "Home",
+    "placas": "Plate Registration",
+    "conductores": "Driver Registration",
+    "clima": "Route Weather"
+  },
+  "home": {
+    "placasTile": "Plate Registration",
+    "conductoresTile": "Driver Registration",
+    "climaTile": "Route Weather"
+  },
+  "placas": {
+    "addButton": "+ Add plate",
+    "colPlaca": "Plate",
+    "colCategoria": "Category",
+    "modalNew": "New plate",
+    "modalEdit": "Edit plate",
+    "placeholderPlaca": "Plate (e.g. ABC-123)",
+    "categoriaLabel": "Category",
+    "categoriaTracto": "Tractor",
+    "categoriaCarreta": "Trailer",
+    "saveNew": "Add plate",
+    "saveEdit": "Save changes",
+    "editButton": "Edit",
+    "deleteButton": "Delete",
+    "confirmDelete": "Delete this plate?",
+    "errorGeneric": "Error saving the plate"
+  },
+  "conductores": {
+    "addButton": "+ Add driver",
+    "colNombre": "Name",
+    "colDni": "ID Number",
+    "colLicencia": "License No.",
+    "modalNew": "New driver",
+    "modalEdit": "Edit driver",
+    "placeholderNombre": "Full name",
+    "placeholderDni": "ID Number (8 digits)",
+    "placeholderLicencia": "License number",
+    "saveNew": "Add driver",
+    "saveEdit": "Save changes",
+    "editButton": "Edit",
+    "deleteButton": "Delete",
+    "confirmDelete": "Delete this driver?",
+    "errorGeneric": "Error saving the driver"
+  },
+  "breadcrumb": {
+    "home": "Home"
+  },
+  "idioma": "Language",
+  "validacion": {
+    "requerido": "This field is required",
+    "nombre": "Letters only, one space between words (e.g. John Smith)",
+    "dni": "The ID number must have exactly 8 digits",
+    "licencia": "The license must be 1 letter + 8 digits (e.g. Q12345678)",
+    "placa": "The plate must be 3 letters + 3 digits (e.g. ABC-123)",
+    "categoria": "Select a category"
+  },
+  "clima": {
+    "descripcion": "Current weather in the main cities along the transport routes. Data from an external service (Open-Meteo).",
+    "actualizar": "Refresh",
+    "cargando": "Loading...",
+    "error": "Could not connect to the weather service. Check your internet connection.",
+    "humedad": "Humidity",
+    "viento": "Wind",
+    "actualizado": "Updated: {hora}",
+    "estado": {
+      "despejado": "Clear",
+      "nublado": "Partly cloudy",
+      "niebla": "Fog",
+      "lluvia": "Rain",
+      "nieve": "Snow",
+      "chubascos": "Showers",
+      "tormenta": "Thunderstorm"
+    }
+  }
+}
