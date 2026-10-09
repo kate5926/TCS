@@ -10,16 +10,16 @@ En esta práctica se creó una cuenta en **Netlify** y, desde su panel, se gener
 
 1. Se entró a https://www.netlify.com y se hizo clic en **Sign up**.
 2. Se registró la cuenta con **GitHub**.
-3. Al terminar, se ingresó al panel principal de Netlify.
+
 
 ---
 
 ## 2. Creación de la aplicación
 
- Netlify generó el código de la aplicación y la publicó automáticamente.
 
 
-## Capturas de pantalla
+
+# Capturas de pantalla
 
 
 
